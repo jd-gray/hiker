@@ -1,0 +1,14 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @hike.name %>
+</p>
+
+<p>
+  <strong>Image:</strong>
+  <%= @hike.image %>
+</p>
+
+<%= link_to 'Edit', edit_hike_path(@hike) %> |
+<%= link_to 'Back', hikes_path %>
